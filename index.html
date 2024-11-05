@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h2>Navid Sir Geolocation Issue</h2>
+
+    <hr>
+
+    <p>Permission-Based: When a website or app requests a user’s location, the browser will first prompt the user to
+        grant or deny permission. This ensures that user privacy is respected.
+    <div>Data Collection: Once permission is granted, the Geolocation API gathers location data from available sources:
+    </div>
+    <div>GPS (on mobile devices) for high accuracy.
+        Wi-Fi Networks for location in urban areas where GPS may be limited.
+
+        <br>
+
+        IP Address for a rough location estimate (typically within the city level).
+
+        <br>
+
+        Cell Towers (on mobile devices) as a fallback when GPS and Wi-Fi are unavailable.
+    </div>
+
+    <hr>
+
+    <div>Accuracy: The accuracy of the location depends on the device, available data sources, and the browser.</div>
+    </p>
+
+    <!-- Form created for employee -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form id="employeeform">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input class="form-control" id="email" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input class="form-control" id="password" type="text">
+                                </div>
+                                <div class="text-right">
+                                    <button class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="./asset/javascript/app.js"></script>
+
+</body>
+
+</html>

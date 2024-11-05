@@ -35,7 +35,9 @@ function getReadableLocation() {
                         
                         // Access the address information from the response
                         const address = data.address;
-                        alert(data.address)
+                        console.log(address);
+                        alert(address.county)
+                        
                         console.log("City:", address.city || address.town || address.village);
                         console.log("State:", address.state);
                         console.log("Country:", address.country);
